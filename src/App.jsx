@@ -4,6 +4,8 @@ import CreatePage from "./pages/CreatePage";
 import HomePage from "./pages/HomePage";
 import UserDetailPage from "./pages/UserDetailPage";
 import UserUpdatePage from "./pages/UserUpdatePage";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
+
 function App() {
   return (
     <main>
